@@ -1,7 +1,7 @@
-//process.stdout.write('hello from spinner1.js... \rheyyy\n');
+const blades = [ '|', '/', '-', '|', '/', '-', '\\', '|'];
 
 setTimeout(() => {
-  process.stdout.write('\r|   ');
+  process.stdout.write('\r{blades[0]}   ');
 }, 100);
 
 setTimeout(() => {
